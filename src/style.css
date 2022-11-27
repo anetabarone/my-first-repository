@@ -1,0 +1,51 @@
+h1 {
+  font-family: "Manrope", sans-serif;
+  padding: 10px 0 0 0;
+}
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+button {
+  margin-top: 2px;
+}
+p {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  color: #1c465e;
+}
+input {
+  margin: 20px auto;
+  font-family: "Manrope", sans-serif;
+}
+
+.mainPanel {
+  background: #e4fcf9;
+}
+.bigIcon {
+  font-size: 85px;
+  color: #faee5a;
+}
+.forecastIcons {
+  color: #0b5ed7;
+  font-size: 20px;
+}
+.forecastData {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+}
+.signature {
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  color: grey;
+}
+.normalButton {
+  margin: 20px auto;
+  font-family: "Manrope", sans-serif;
+  background-color: #e4fcf9;
+
+  border-width: 1px;
+  border-style: solid;
+
+  border-radius: 0.375rem;
+}
