@@ -34,6 +34,7 @@ actualDate.innerHTML =
   now.getFullYear();
 
 function displayWeatherCondition(response) {
+  console.log(response);
   document.querySelector("#searchedCity").innerHTML = response.data.name;
   document.querySelector("#actualTemp").innerHTML = Math.round(
     response.data.main.temp
