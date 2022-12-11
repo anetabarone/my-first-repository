@@ -22,14 +22,7 @@ input {
 .mainPanel {
   background: #e4fcf9;
 }
-.forecastIcons {
-  color: #0b5ed7;
-  font-size: 20px;
-}
-.forecastData {
-  font-family: "Manrope", sans-serif;
-  font-size: 15px;
-}
+
 .signature {
   font-family: "Manrope", sans-serif;
   font-size: 10px;
@@ -44,4 +37,25 @@ input {
   border-style: solid;
 
   border-radius: 0.375rem;
+}
+.units {
+  font-size: 17px;
+  position: relative;
+  top: -14px;
+  text-decoration: none;
+}
+.active {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
+#celsius-link {
+  text-decoration: none;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
 }
