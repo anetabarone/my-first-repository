@@ -41,6 +41,9 @@ function displayWeatherCondition(response) {
   );
   document.querySelector("#weatherDescription").innerHTML =
     response.data.weather[0].main;
+  document.querySelector("#humiditySpan").innerHTML =
+    response.data.main.humidity;
+  document.querySelector("#windSpan").innerHTML = response.data.wind.speed;
 }
 
 function searchCity(city) {
