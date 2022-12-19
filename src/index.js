@@ -33,6 +33,27 @@ actualDate.innerHTML =
   ", " +
   now.getFullYear();
 
+function displayForecast() {
+
+
+ // <div class="row">
+ // <div class="col-2">
+  //  <div class="weather-forecast-date">Thu</div>
+  //  <img
+  //    src="http://openweathermap.org/img/wn/50d@2x.png"
+   //   alt=""
+   //   width="42"
+  //  />
+  //  <div class="weather-forecast-temperatures">
+  //    <span class="weather-forecast-temperature-max"> 18° </span>
+  //    <span class="weather-forecast-temperature-min"> 12° </span>
+  //  </div>
+  //</div>
+//</div>
+
+
+};
+
 function displayWeatherCondition(response) {
   console.log(response);
   document.querySelector("#searchedCity").innerHTML = response.data.name;
@@ -110,3 +131,5 @@ fahrenheitLink.addEventListener("click", showFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showCelsiusTemperature);
+
+displayForecast();
