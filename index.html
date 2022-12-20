@@ -22,58 +22,54 @@
   </head>
   <body>
     <div class="container">
-      <div class="d-flex justify-content-center">
-        <form id="change-city-form">
-          <input type="search" id="city-input" placeholder="Change city" />
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-      <div class="d-flex justify-content-center">
-        <button type="button" id="currentLoc" class="normalButton">
-          Weather in my current location
-        </button>
-      </div>
-      <h2></h2>
-      <div class="mainPanel">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-10"><h1 id="searchedCity"></h1></div>
+      <div class="weather-app-wrapper">
+        <div class="d-flex justify-content-center">
+          <form id="change-city-form">
+            <input type="search" id="city-input" placeholder="Change city" />
+            <input type="submit" value="Submit" />
+          </form>
         </div>
-        <div class="row">
-          <div class="col-2">
-            <div class="container text-center">
+        <div class="d-flex justify-content-center">
+          <button type="button" id="currentLoc" class="normalButton">
+            Weather in my current location
+          </button>
+        </div>
+        <h2></h2>
+        <div class="mainPanel">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-10"><h1 id="searchedCity"></h1></div>
+          </div>
+          <div class="row">
+            <div class="col-2">
               <img id="icon" src="" alt="weather icon" />
             </div>
+            <div class="col-10">
+              <h3>
+                <span id="weatherDescription"></span>,
+                <span id="actualTemp"></span>
+                <span class="units"
+                  ><a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a></span
+                >
+              </h3>
+              <p>
+                Humidity: <span id="humiditySpan"></span>% <br />
+                Wind: <span id="windSpan"></span> mph
+              </p>
+            </div>
           </div>
-          <div class="col-10">
-            <h1>
-              <span id="weatherDescription"></span>,
-              <span id="actualTemp"></span>
-              <span class="units"
-                ><a href="#" id="celsius-link" class="active">°C</a> |
-                <a href="#" id="fahrenheit-link">°F</a></span
-              >
-            </h1>
-            <p>
-              Humidity: <span id="humiditySpan"></span>% <br />
-              Wind: <span id="windSpan"></span> mph
-            </p>
-          </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
-        <div class="weather-forecast" id="forecast">
-
+        <br />
+        <div class="container">
+          <p class="signature">
+            <a href="https://github.com/anetabarone/my-first-repository"
+              >Open-sourced code</a
+            >
+            by Aneta Barone, 2022
+          </p>
         </div>
-      </div>
-      <br />
-      <div class="container">
-        <p class="signature">
-          Coded by Aneta Barone, 2022
-          <br />
-          See my
-          <a href="https://github.com/anetabarone/my-first-repository"
-            >GitHub</a
-          >
-        </p>
       </div>
     </div>
   </body>

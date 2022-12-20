@@ -12,6 +12,11 @@ h2 {
   font-family: "Manrope", sans-serif;
   font-size: 18px;
 }
+h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 25px;
+}
+
 button {
   margin-top: 2px;
 }
@@ -24,9 +29,16 @@ input {
   margin: 20px auto;
   font-family: "Manrope", sans-serif;
 }
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
 
 .mainPanel {
   background: #e4fcf9;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
 
 .signature {
@@ -47,7 +59,7 @@ input {
 .units {
   font-size: 17px;
   position: relative;
-  top: -14px;
+  top: -7px;
   text-decoration: none;
 }
 .active {
@@ -72,7 +84,6 @@ input {
 }
 .weather-forecast-date {
   font-size: 16px;
-  
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
@@ -80,4 +91,10 @@ input {
 
 .weather-forecast-temperatures {
   font-size: 14px;
+}
+
+#icon {
+  margin-right: 20px;
+  height: 100px;
+  width: 90px;
 }
