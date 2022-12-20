@@ -33,7 +33,11 @@ input {
   max-width: 600px;
   margin: 30px auto;
 }
-
+.container {
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
+}
 .mainPanel {
   background: #e4fcf9;
   padding: 20px;
@@ -97,4 +101,33 @@ input {
   margin-right: 20px;
   height: 100px;
   width: 90px;
+}
+
+#city-search-bar {
+  width: 340px;
+
+  display: inline-block;
+  background: #cfbcdc;
+  border-radius: 60px;
+  backdrop-filter: blur(4px) saturate(180%);
+}
+#city-search-bar button {
+  width: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+}
+
+#city-search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0px 20px 0px 5px;
+  font-size: 16px;
+  color: white;
+  margin: 5px 2px 5px 2px;
+}
+::placeholder {
+  color: rgba(241, 243, 244, 0.76);
 }

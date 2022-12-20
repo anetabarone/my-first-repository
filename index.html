@@ -19,9 +19,24 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/59b8da7f3f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
+      <form id="city-search-bar">
+        <input
+          type="search"
+          placeholder="Enter a City..."
+          autocomplete="off"
+          id="city-input"
+        />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
       <div class="weather-app-wrapper">
         <div class="d-flex justify-content-center">
           <form id="change-city-form">
