@@ -38,10 +38,11 @@ input {
   margin: 30px auto;
 }
 .mainPanel {
-  background: #e4fcf9;
-  padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-image: linear-gradient(rgba(0, 8, 51, 0.2), rgba(0, 8, 51, 0.227));
+  border-radius: 25px;
 }
 
 .signature {
@@ -88,7 +89,7 @@ input {
 }
 
 #icon {
-  margin-right: 20px;
+  margin-right: 10px;
   height: 100px;
   width: 90px;
 }
