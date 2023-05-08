@@ -1,6 +1,7 @@
 body {
   background-image: url(pexels-darius-krause-2470655.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto;
   background-position: center;
 }
 
@@ -41,7 +42,10 @@ input {
   margin-top: 5px;
   padding-bottom: 20px;
   padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 8, 51, 0.2), rgba(0, 8, 51, 0.227));
+  background-image: linear-gradient(
+    rgba(64, 72, 117, 0.2),
+    rgba(0, 8, 51, 0.227)
+  );
   border-radius: 25px;
 }
 
